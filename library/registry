@@ -1,0 +1,11 @@
+# maintainer: Stephen Day <stephen.day@docker.com> (@stevvooe)
+# maintainer: Olivier Gambier <olivier.gambier@docker.com> (@dmp42)
+# maintainer: Richard Scothern <richard.scothern@gmail.com> (@RichardScothern)
+# maintainer: Aaron Lehmann <aaron.lehmann@docker.com> (@aaronlehmann)
+# maintainer: Derek McGowan <dmcg@drizz.net> (@dmcgowan)
+
+2: git://github.com/docker/distribution-library-image@576b139d6eac5b35c9b3e9fe6c2e5132b0c7e03b
+2.6: git://github.com/docker/distribution-library-image@576b139d6eac5b35c9b3e9fe6c2e5132b0c7e03b
+2.6.1: git://github.com/docker/distribution-library-image@576b139d6eac5b35c9b3e9fe6c2e5132b0c7e03b
+latest: git://github.com/docker/distribution-library-image@576b139d6eac5b35c9b3e9fe6c2e5132b0c7e03b
+
