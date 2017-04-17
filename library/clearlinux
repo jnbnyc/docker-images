@@ -1,4 +1,0 @@
-# maintainer: William Douglas <william.douglas@intel.com> (@bryteise)
-
-latest: git://github.com/clearlinux/docker-brew-clearlinux@90d318e51ef5ba0254a863b635b36051ad733f9f
-base: git://github.com/clearlinux/docker-brew-clearlinux@90d318e51ef5ba0254a863b635b36051ad733f9f

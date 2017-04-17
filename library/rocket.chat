@@ -1,5 +1,0 @@
-Maintainers: Rocket.Chat Image Team <buildmaster@rocket.chat> (@RocketChat)
-GitRepo: https://github.com/RocketChat/Docker.Official.Image.git
-
-Tags: 0.54.2, 0.54, 0, latest
-GitCommit: a721d599218803d2acb27f92b11d2cdcf0a226d5
