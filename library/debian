@@ -1,0 +1,9 @@
+# this file is generated via https://github.com/jnbnyc/dockerfiles/blob/655ca75413e223d97615cb32f480aaa402df80d9/generate-stackbrew-library.sh
+
+Maintainers: John Buhay <jnbuhaynyc@gmail.com> (@jnbnyc)
+GitRepo: https://github.com/jnbnyc/dockerfiles
+Constraints: jnbnyc
+
+Tags: 0.0.1-2, jessie, latest
+GitCommit: 9b3845af65116b72520dd566ea529d52118db57a
+Directory: debian/jessie
