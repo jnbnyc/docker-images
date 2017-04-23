@@ -4,6 +4,10 @@ Maintainers: John Buhay <jnbuhaynyc@gmail.com> (@jnbnyc)
 GitRepo: https://github.com/jnbnyc/dockerfiles
 Constraints: jnbnyc
 
-Tags: 0.0.1-2, jessie, latest
+Tags: jessie-docker
+GitCommit: cf897481573cabbba611115827b50e5f083008a7
+Directory: debian/jessie-docker
+
+Tags: 0.0.1-2, jessie
 GitCommit: 9b3845af65116b72520dd566ea529d52118db57a
 Directory: debian/jessie
