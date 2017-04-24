@@ -1,0 +1,9 @@
+# this file is generated via https://github.com/jnbnyc/dockerfiles/blob/316c9e62d68bdc047080d67eb6b07251247dd296/generate-stackbrew-library.sh
+
+Maintainers: John Buhay <jnbuhaynyc@gmail.com> (@jnbnyc)
+GitRepo: https://github.com/jnbnyc/dockerfiles
+Constraints: jnbnyc
+
+Tags: base
+GitCommit: 566fb6a74df5359d410e87469656546bdd148d52
+Directory: jenkins-swarm-agent/base
