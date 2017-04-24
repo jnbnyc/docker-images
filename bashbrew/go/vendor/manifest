@@ -2,8 +2,8 @@
 	"version": 0,
 	"dependencies": [
 		{
-			"importpath": "github.com/codegangsta/cli",
-			"repository": "https://github.com/codegangsta/cli",
+			"importpath": "github.com/urfave/cli",
+			"repository": "https://github.com/urfave/cli",
 			"revision": "01857ac33766ce0c93856370626f9799281c14f4",
 			"branch": "HEAD"
 		},

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu -o pipefail
-
+set -x
 # "bashbrew children" can't work with "--uniq" and "bashbrew build" will build the entire "tag group", so we need to filter the output to just uniq values
 
 : "${BASHBREW:=bashbrew}"

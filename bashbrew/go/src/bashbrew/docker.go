@@ -12,7 +12,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	"github.com/docker-library/go-dockerlibrary/manifest"
 )
 

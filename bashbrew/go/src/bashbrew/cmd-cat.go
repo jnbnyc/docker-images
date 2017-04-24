@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	"github.com/docker-library/go-dockerlibrary/pkg/templatelib"
 )
 
