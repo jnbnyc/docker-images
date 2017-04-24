@@ -9,8 +9,9 @@ RUN apk add --no-cache \
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:$PATH
 
+ENV BASHBREW_SRC /usr/local/src/bashbrew
 ENV DIR /usr/src/official-images
-ENV PATH $DIR/bashbrew/go/bin:$PATH
+ENV PATH $BASHBREW_SRC/go/bin:$PATH
 
 ENV BASHBREW_LIBRARY $DIR/library
 ENV BASHBREW_CACHE /bashbrew-cache
@@ -21,15 +22,15 @@ RUN mkdir -p "$BASHBREW_CACHE" \
 # (this allows us to decide at runtime the exact uid/gid we'd like to run as)
 
 WORKDIR $DIR
-COPY . $DIR
+ADD bashbrew $BASHBREW_SRC
 
 RUN set -ex; \
-	cd bashbrew/go; \
+	cd $BASHBREW_SRC/go; \
 	export GOPATH="$PWD:$PWD/vendor"; \
 	cd src; \
 	go install -v ./...
 
 VOLUME $BASHBREW_CACHE
 
-RUN ln -s "$PWD/bashbrew/bashbrew-entrypoint.sh" /usr/local/bin/bashbrew-entrypoint.sh
+RUN ln -s "/usr/local/src/bashbrew/bashbrew-entrypoint.sh" /usr/local/bin/bashbrew-entrypoint.sh
 ENTRYPOINT ["bashbrew-entrypoint.sh"]
